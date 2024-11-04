@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Crea tu Cuenta</h1>
+    </header>
+    <section>
+        <form id="registroForm" action="registro.php" method="post" class="formulario-centrado">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br/><br/>
+            
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required><br/><br/>
+            
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" required><br/><br/>
+            
+            <label for="confirmar_contraseña">Confirmar Contraseña:</label>
+            <input type="password" id="confirmar_contraseña" name="confirmar_contraseña" required><br/><br/>
+            
+            <p id="error" class="error"></p>
+            <input type="submit" value="Crear Cuenta" class="btn-submit">
+        </form>
+    </section>
+</body>
+</html>
