@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "nombre": "Restaurante A",
+        "imagen": "imagen1.jpg",
+        "direccion": "Calle 123, Ciudad, País",
+        "descripcion": "Especialidades en comida italiana.",
+        "menu": ["Pasta", "Pizza", "Tiramisú"],
+        "galeria": [
+            "ruta/a/producto1.jpg",
+            "ruta/a/producto2.jpg",
+            "ruta/a/producto3.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Restaurante B",
+        "imagen": "imagen2.jpg",
+        "direccion": "Avenida 456, Ciudad, País",
+        "descripcion": "Deliciosas hamburguesas artesanales.",
+        "menu": ["Hamburguesa", "Papas Fritas", "Batidos"],
+        "galeria": [
+            "ruta/a/producto4.jpg",
+            "ruta/a/producto5.jpg",
+            "ruta/a/producto6.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Restaurante C",
+        "imagen": "imagen3.jpg",
+        "direccion": "Boulevard 789, Ciudad, País",
+        "descripcion": "Frescas ensaladas y jugos naturales.",
+        "menu": ["Ensalada César", "Ensalada Griega", "Jugo de Naranja"],
+        "galeria": [
+            "ruta/a/producto7.jpg",
+            "ruta/a/producto8.jpg",
+            "ruta/a/producto9.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Restaurante D",
+        "imagen": "imagen4.jpg",
+        "direccion": "Plaza 101, Ciudad, País",
+        "descripcion": "Exquisitos platos de mariscos.",
+        "menu": ["Ceviche", "Paella", "Langosta a la parrilla"],
+        "galeria": [
+            "ruta/a/producto10.jpg",
+            "ruta/a/producto11.jpg",
+            "ruta/a/producto12.jpg"
+        ]
+    }
+]
