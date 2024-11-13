@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#logo {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 100%;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.sidebar.active {
+    width: 100%;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background-color: #e0e0e0;
+}
+
+/* Grid Container for restaurant profiles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.restaurant-profile {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.restaurant-profile img {
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #4CAF50;
+}
+
+/* Styles for details page */
+#detalles-restaurante img {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #4CAF50;
+}
+
+#detalles-restaurante h2 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#detalles-restaurante p {
+    margin: 10px 0;
+}
+
+#detalles-restaurante .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#detalles-restaurante .galeria-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+    .sidebar {
+        width: 200px;
+        border-right: 1px solid #ddd;
+        border-bottom: none;
+    }
+    .sidebar.active {
+        width: 200px;
+        padding: 20px;
+    }
+}
